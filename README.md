@@ -23,7 +23,7 @@ Dependencies for this project:
 - SQLC (https://docs.sqlc.dev/en/latest/overview/install.html) (optional)
 
 
-## Common Errors
+## Troubleshooting
 
 ### Postgres
 Can't run `make postgres` or `make createdb`? A common error is running Postgres Docker container while having Postgres already installed in your PC. This will cause conflict and error. Solution is to uninstall Postgres.
