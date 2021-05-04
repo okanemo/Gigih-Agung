@@ -9,7 +9,10 @@ Initialize project by:
 3. `make migrateup`
 4. `make server`
 
-`make server` will make the app run on localhost port `8080`. `make
+`make server` will make the app run on localhost port `8080`
+
+`make test` will provide test coverage using random data.
+
 
 ## Installing Dependencies
 
@@ -18,6 +21,7 @@ Initialize project by:
 Dependencies for this project:
 - Golang-Migrate CLI (https://github.com/golang-migrate/migrate) (required)
 - SQLC (https://docs.sqlc.dev/en/latest/overview/install.html) (optional)
+
 
 ## Common Errors
 
