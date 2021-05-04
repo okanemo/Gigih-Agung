@@ -25,10 +25,10 @@ Dependencies for this project:
 
 ## Common Errors
 
-- Postgres/n
+### Postgres
 Can't run `make postgres` or `make createdb`? A common error is running Postgres Docker container while having Postgres already installed in your PC. This will cause conflict and error. Solution is to uninstall Postgres.
 
-- SQLC/n
+### SQLC
 When running `make sqlc` your terminal might say "sqlc.json doesn't exist". You need to specify your project directory. Manually typing down the location works if $(pwd) somehow doesn't work.
 
 
